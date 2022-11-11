@@ -28,6 +28,7 @@ namespace FirstApp1.Model
             return response;
         }
 
+        //Get by Id
         public ProductModel GetProductById(int id)
         {
             ProductModel response = new ProductModel();
